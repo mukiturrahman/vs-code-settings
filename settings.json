@@ -1,9 +1,9 @@
 {
   // editor
-  "editor.fontSize": 14,
-  "editor.fontFamily": "Fira Code, Consolas, ‘Courier New’, monospace",
+  "editor.fontSize": 13,
+  "editor.fontFamily": "JetBrains Mono, Consolas, ‘Courier New’, monospace",
   "editor.fontLigatures": true,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "breadcrumbs.enabled": true,
   "editor.formatOnPaste": true,
   "editor.wordWrap": "bounded",
@@ -50,7 +50,7 @@
   //terminal
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontFamily": "Fira Code, Consolas, ‘Courier New’, monospace",
+  "terminal.integrated.fontFamily": "JetBrains Mono, Consolas, ‘Courier New’, monospace",
   "terminal.external.windowsExec": "wt -p cmd cmd",
   // Open the terminal in the currently opened file's directory
   "terminal.integrated.cwd": "${fileDirname}",
@@ -79,10 +79,10 @@
     "terminal.ansiYellow": "#E6CD69"
   },
   "git.autofetch": true,
-  "liveServer.settings.CustomBrowser": "firefox",
+  "liveServer.settings.CustomBrowser": "microsoft-edge",
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "editor.mouseWheelZoom": false,
+  "editor.mouseWheelZoom": true,
   "eslint.format.enable": true,
 
   // LIVE SASS COMPAILER
@@ -96,10 +96,12 @@
   "scss.validate": false,
   "liveSassCompile.settings.generateMap": false,
   "settingsSync.ignoredExtensions": [],
-  "workbench.colorTheme": "Horizon",
+  "workbench.colorTheme": "Horizon Bold",
   "workbench.iconTheme": "material-icon-theme",
   "editor.linkedEditing": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "remote.WSL.fileWatcher.polling": true,
-  "remote.WSL.server.connectThroughLocalhost": true
+  "remote.WSL.server.connectThroughLocalhost": true,
+  "remote.WSL.debug": true,
+  "liveServer.settings.useLocalIp": true
 }
