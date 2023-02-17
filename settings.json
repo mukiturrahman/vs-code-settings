@@ -1,4 +1,4 @@
-// UBUNTU VERSION, IF YOU WANT TO USE THIS IN WINDOWS PC CHANGE SOME FILE PATH.
+// WINDOWS 11 VERSION, IF YOU WANT TO USE THIS IN Unix Based PC CHANGE THE FILE PATH ACCORDINGLY.
 
 {
   // General Settings
@@ -15,14 +15,14 @@
   "editor.formatOnPaste": true,
   "editor.wordWrap": "bounded",
   "editor.cursorBlinking": "expand",
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.minimap.enabled": true,
   "editor.trimAutoWhitespace": true,
   "editor.hover.enabled": true,
   "editor.minimap.maxColumn": 80,
-  "window.zoomLevel": 2,
+  "liveServer.settings.CustomBrowser": "firefox",
 
   // Terminal Settings
   "terminal.integrated.fontSize": 14,
@@ -64,9 +64,12 @@
   "jupyter.jupyterServerType": "local",
 
   // Python Settings
-  "python.defaultInterpreterPath": "/usr/bin/python3",
-  "python.linting.pylintEnabled": true,
-  "python.linting.enabled": true,
+  "python.defaultInterpreterPath": "C:\\Users\\mukit\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "python.formatting.provider": "black",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
+  }
 
   // Code Runner Settings
   "code-runner.executorMap": {
@@ -75,3 +78,6 @@
   "code-runner.clearPreviousOutput": true,
   "code-runner.showExecutionMessage": false
 }
+
+
+ 
