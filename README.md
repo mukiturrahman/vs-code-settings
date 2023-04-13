@@ -15,6 +15,7 @@
     
 ## Extensions I USE:
 
+- [EXTENSIONS NAME] - [Author Name]
 - Auto Rename Tag - Jun Han
 - Better Comments - Aron Bond
 - Code Runner - Jun Han
