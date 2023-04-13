@@ -15,20 +15,23 @@
     
 ## Extensions I USE:
 
-- Auto Close Tag
-- Auto Rename Tag
-- Ayu
-- Better Comments
-- Code Runner
-- codeSTACKr Theme
-- Fluent Icons
-- Jupyter
-- Live Server
-- Material Icon Theme
-- PHP Intelephense
-- Prettier - Code formatter
-- Pylance
-- Python
+- Auto Rename Tag - Jun Han
+- Better Comments - Aron Bond
+- Code Runner - Jun Han
+- codeSTACKr Theme - codestackr
+- Discord Presence - Crawl
+- ES7 + React/Redux/React-Native snippets - dsznajder
+- ESLint - Microsoft
+- Fluent Icons - Miguel Solorio
+- Format HTML in PHP - rifi2k
+- Jupyter - Microsoft
+- Live Server - Ritwick Dey
+- Material Icon Theme - Philipp Kief
+- PHP Intelephense - Ben Mewburn
+- Prettier - Code formatter - Prettier
+- Pylance - Microsoft
+- Python - Microsoft
+- vscode-icons - VSCode Icons Team
 ## Support
 
-For support, email mukiturrahman1012@gmail.com or join our [Discord Server](https://discord.gg/3rhPnqRNPd).
+For support, email mukiturrahman1012@gmail.com or [Dotinverse](https://dotinverse.com).
