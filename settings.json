@@ -1,82 +1,99 @@
 // WINDOWS 11 VERSION, IF YOU WANT TO USE THIS IN Unix Based PC CHANGE THE FILE PATH ACCORDINGLY.
 
 {
-  // General Settings
-  "workbench.colorTheme": "codeSTACKr Theme",
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "ayu",
-  "workbench.settings.editor": "json",
-  "editor.fontSize": 16,
-  "editor.fontFamily": "Cascadia Code PL, monospace",
-  "editor.fontLigatures": true,
-  "breadcrumbs.enabled": true,
-  "editor.mouseWheelZoom": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.wordWrap": "bounded",
-  "editor.cursorBlinking": "expand",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.minimap.enabled": true,
-  "editor.trimAutoWhitespace": true,
-  "editor.hover.enabled": true,
-  "editor.minimap.maxColumn": 80,
-  "liveServer.settings.CustomBrowser": "firefox",
+    // General Settings
+    "workbench.colorTheme": "codeSTACKr Theme",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.settings.editor": "json",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Cascadia Code PL, monospace",
+    "editor.fontLigatures": true,
+    "breadcrumbs.enabled": true,
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.wordWrap": "bounded",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.enabled": true,
+    "editor.trimAutoWhitespace": true,
+    "editor.hover.enabled": true,
+    "editor.minimap.maxColumn": 80,
+    "liveServer.settings.CustomBrowser": "firefox",
 
-  // Terminal Settings
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontFamily": "CaskaydiaCove NF, monospace",
-  "terminal.external.windowsExec": "wt -p cmd cmd",
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cwd": "${fileDirname}",
-  "workbench.colorCustomizations": {
-    "terminal.ansiBlack": "#171c2a",
-    "terminal.ansiRed": "#E35535",
-    "terminal.ansiGreen": "#52AB62",
-    "terminal.ansiYellow": "#ffd866",
-    "terminal.ansiBlue": "#00B3BD",
-    "terminal.ansiMagenta": "#e991e3",
-    "terminal.ansiCyan": "#78e8c6",
-    "terminal.ansiWhite": "#FFFFFFcc",
-    "terminal.ansiBrightBlack": "#00B3BD",
-    "terminal.ansiBrightRed": "#E35535",
-    "terminal.ansiBrightGreen": "#52AB62",
-    "terminal.ansiBrightYellow": "#ffd866",
-    "terminal.ansiBrightBlue": "#00B3BD",
-    "terminal.ansiBrightMagenta": "#e991e3",
-    "terminal.ansiBrightCyan": "#78e8c6",
-    "terminal.ansiBrightWhite": "#00B3BD",
-    "terminal.background": "#171c2a",
-    "terminalCursor.background": "#ffd866",
-    "terminalCursor.foreground": "#ffd866"
-  },
+    // Terminal Settings
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "CaskaydiaCove NF, monospace",
+    "terminal.external.windowsExec": "wt -p cmd cmd",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cwd": "${fileDirname}",
+    "workbench.colorCustomizations": {
+        "terminal.ansiBlack": "#171c2a",
+        "terminal.ansiRed": "#E35535",
+        "terminal.ansiGreen": "#52AB62",
+        "terminal.ansiYellow": "#ffd866",
+        "terminal.ansiBlue": "#00B3BD",
+        "terminal.ansiMagenta": "#e991e3",
+        "terminal.ansiCyan": "#78e8c6",
+        "terminal.ansiWhite": "#FFFFFFcc",
+        "terminal.ansiBrightBlack": "#00B3BD",
+        "terminal.ansiBrightRed": "#E35535",
+        "terminal.ansiBrightGreen": "#52AB62",
+        "terminal.ansiBrightYellow": "#ffd866",
+        "terminal.ansiBrightBlue": "#00B3BD",
+        "terminal.ansiBrightMagenta": "#e991e3",
+        "terminal.ansiBrightCyan": "#78e8c6",
+        "terminal.ansiBrightWhite": "#00B3BD",
+        "terminal.background": "#171c2a",
+        "terminalCursor.background": "#ffd866",
+        "terminalCursor.foreground": "#ffd866"
+    },
 
-  // Git Settings
-  "git.autofetch": true,
-  "git.enableSmartCommit": true,
+    // Git Settings
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
 
-  "css.lint.float": "warning",
-  "liveServer.settings.donotVerifyTags": true,
-  "security.workspace.trust.untrustedFiles": "open",
-  "jupyter.jupyterServerType": "local",
+    "css.lint.float": "warning",
+    "liveServer.settings.donotVerifyTags": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "jupyter.jupyterServerType": "local",
 
-  // Python Settings
-  "python.defaultInterpreterPath": "C:\\Users\\mukit\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
-  "python.formatting.provider": "black",
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.formatOnType": true
-  }
+    // Python Settings
+    "python.defaultInterpreterPath": "C:\\Users\\mukit\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "python.formatting.provider": "black",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnType": true
+    },
 
-  // Code Runner Settings
-  "code-runner.executorMap": {
-    "python": "$pythonPath -u $fullFileName"
-  },
-  "code-runner.clearPreviousOutput": true,
-  "code-runner.showExecutionMessage": false
+    // Code Runner Settings
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    // SCSS Path
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".css",
+            "savePath": "/app/css",
+            "savePathReplacementPairs": null
+        }
+    ],
+
+    // Prettier Settings
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 100,
+    "prettier.tabWidth": 4
 }
 
 
