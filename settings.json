@@ -65,10 +65,15 @@
 
     // Python Settings
     "python.defaultInterpreterPath": "C:\\Users\\mukit\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
-    "python.formatting.provider": "black",
+    "python.formatting.provider": "none",
     "[python]": {
-        "editor.defaultFormatter": "ms-python.python",
+        "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnType": true
+    },
+
+    // Next JS Format
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
     },
 
     // Code Runner Settings
@@ -90,11 +95,12 @@
         }
     ],
 
-    // Prettier Settings
-    "prettier.singleQuote": true,
-    "prettier.printWidth": 100,
-    "prettier.tabWidth": 4
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "prettier.printWidth": 300,
+    "prettier.tabWidth": 4,
+    "easycode.model": "gpt-3.5-turbo"
 }
-
 
  
