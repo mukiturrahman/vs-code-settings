@@ -1,57 +1,132 @@
 // WINDOWS 11 VERSION, IF YOU WANT TO USE THIS IN Unix Based PC CHANGE THE FILE PATH ACCORDINGLY.
 
 {
-    // General Settings
-    "workbench.colorTheme": "Catppuccin Mocha",
-    "workbench.iconTheme": "vscode-icons",
+    // open json editor for settings
     "workbench.settings.editor": "json",
-    "editor.fontSize": 16,
-    "editor.fontFamily": "Cascadia Code PL, monospace",
-    "editor.fontLigatures": true,
-    "breadcrumbs.enabled": true,
-    "editor.mouseWheelZoom": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.wordWrap": "bounded",
-    "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.minimap.enabled": true,
-    "editor.trimAutoWhitespace": true,
-    "editor.hover.enabled": true,
-    "editor.minimap.maxColumn": 80,
-    "liveServer.settings.CustomBrowser": "chrome",
 
-    // Terminal Settings
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontWeight": "normal",
-    "terminal.integrated.fontFamily": "CaskaydiaCove NF, monospace",
-    "terminal.external.windowsExec": "wt -p cmd cmd",
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cwd": "${fileDirname}",
-    "workbench.colorCustomizations": {
-        "terminal.ansiBlack": "#171c2a",
-        "terminal.ansiRed": "#E35535",
-        "terminal.ansiGreen": "#52AB62",
-        "terminal.ansiYellow": "#ffd866",
-        "terminal.ansiBlue": "#00B3BD",
-        "terminal.ansiMagenta": "#e991e3",
-        "terminal.ansiCyan": "#78e8c6",
-        "terminal.ansiWhite": "#FFFFFFcc",
-        "terminal.ansiBrightBlack": "#00B3BD",
-        "terminal.ansiBrightRed": "#E35535",
-        "terminal.ansiBrightGreen": "#52AB62",
-        "terminal.ansiBrightYellow": "#ffd866",
-        "terminal.ansiBrightBlue": "#00B3BD",
-        "terminal.ansiBrightMagenta": "#e991e3",
-        "terminal.ansiBrightCyan": "#78e8c6",
-        "terminal.ansiBrightWhite": "#00B3BD",
-        "terminal.background": "#171c2a",
-        "terminalCursor.background": "#ffd866",
-        "terminalCursor.foreground": "#ffd866"
+    // Theme
+    "workbench.colorTheme": "codeSTACKr Theme",
+    "workbench.iconTheme": "moxer-icons",
+
+    // Change font
+    "editor.fontFamily": "Fira Code",
+    "scm.inputFontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "chat.editor.fontFamily": "Fira Code",
+    "debug.console.fontFamily": "Fira Code",
+    "editor.codeLensFontFamily": "Fira Code",
+    "notebook.output.fontFamily": "Fira Code",
+    "markdown.preview.fontFamily": "Fira Code",
+    "editor.inlayHints.fontFamily": "Fira Code",
+
+    // Font size
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 16,
+    "editor.fontLigatures": true,
+
+    // ui
+    "editor.minimap.enabled": false,
+    "window.commandCenter": false,
+    "editor.scrollbar.vertical": "auto",
+    "window.titleBarStyle": "custom",
+    "editor.scrollbar.horizontal": "auto",
+
+    // APC
+    "apc.activityBar": {
+        "position": "bottom",
+        "hideSettings": true,
+        "size": 28
     },
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 12,
+            "y": 10
+        }
+    },
+    "apc.font.family": "Geist Mono",
+    "apc.monospace.font.family": "Geist Mono",
+    "apc.statusBar": {
+        "position": "editor-bottom",
+        "height": 28,
+        "fontSize": 12
+    },
+
+    // Cusom css
+    "apc.stylesheet": {
+        ".sidebar > .composite": "height: 12px !important",
+        ".title-label": "display: none !important",
+        ".title-actions": "display: none !important",
+        ".tabs-and-actions-container > .editor-actions": "display: none !important",
+        ".titlebar-center": "display: none !important",
+        ".titlebar-right": "display: none !important",
+        ".inline-tabs-placeholder": "display: none !important",
+        ".split-view-view .visible": "background-color: #110f17 !important"
+    },
+
+    // Aura theme customisation
+    "workbench.colorCustomizations": {
+        "[Aura Dark]": {
+            "editor.background": "#110f17",
+            "terminal.background": "#110f17",
+            "activityBar.background": "#110f17",
+            "statusBar.background": "#110f17",
+            "editorGroupHeader.tabsBackground": "#110f17",
+            "tab.inactiveBackground": "#110f17"
+        }
+    },
+
+    // Toggle excluded files
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules": true,
+        "**/.next": true,
+        "**/.husky": true,
+        "**/drizzle": true,
+        "**/dist": true,
+        "**/.todo.md": true,
+        "**/.vscode": true,
+        "**/.eslintrc.cjs": true,
+        "**/.editorconfig": true,
+        "**/.gitignore": true,
+        "**/.lintstagedrc.mjs": true,
+        "**/.markdownlint.json": true,
+        "**/.markdownlintignore": true,
+        "**/.prettierignore": true,
+        "**/bun.lockb": true,
+        "**/cspell.json": true,
+        "**/package-lock.json": true,
+        "**/pnpm-lock.yaml": true,
+        "**/next-env.d.ts": true,
+        "**/postcss.config.cjs": true,
+        "**/prettier.config.js": true,
+        "**/README.md": true,
+        "**/next.config.js": true,
+        "**/tailwind.config.ts": true,
+        "**/drizzle.config.ts": true,
+        "**/migrate.ts": true,
+        "**/.env.example": true
+    },
+
+    // Misc
+    "workbench.startupEditor": "none",
+    "explorer.compactFolders": false,
+    "editor.tabSize": 4,
+    "editor.linkedEditing": true,
+    "breadcrumbs.filePath": "off",
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "window.zoomLevel": 0.65,
+    "editor.formatOnSave": true,
 
     // Git Settings
     "git.autofetch": true,
@@ -74,6 +149,9 @@
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 
     // Code Runner Settings
     "code-runner.executorMap": {
@@ -94,11 +172,17 @@
         }
     ],
 
-    // "[html]": {
-    //     "editor.defaultFormatter": "vscode.html-language-features"
-    // },
     "prettier.printWidth": 300,
     "prettier.tabWidth": 4,
-    "easycode.model": "gpt-3.5-turbo",
-    "editor.wordWrapColumn": 150
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.stickyScroll.enabled": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
+
