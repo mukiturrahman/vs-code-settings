@@ -1,12 +1,11 @@
 // WINDOWS 11 VERSION, IF YOU WANT TO USE THIS IN Unix Based PC CHANGE THE FILE PATH ACCORDINGLY.
-
 {
     // open json editor for settings
     "workbench.settings.editor": "json",
 
     // Theme
-    "workbench.colorTheme": "codeSTACKr Theme",
-    "workbench.iconTheme": "moxer-icons",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
 
     // Change font
     "editor.fontFamily": "Fira Code",
@@ -54,14 +53,14 @@
 
     // Cusom css
     "apc.stylesheet": {
-        ".sidebar > .composite": "height: 12px !important",
+        ".sidebar > .composite": "height: 0px !important",
         ".title-label": "display: none !important",
         ".title-actions": "display: none !important",
         ".tabs-and-actions-container > .editor-actions": "display: none !important",
         ".titlebar-center": "display: none !important",
-        ".titlebar-right": "display: none !important",
+        // ".titlebar-right": "display: none !important",
         ".inline-tabs-placeholder": "display: none !important",
-        ".split-view-view .visible": "background-color: #110f17 !important"
+        ".split-view-view .visible": "background-color: #09131b !important"
     },
 
     // Aura theme customisation
@@ -73,6 +72,14 @@
             "statusBar.background": "#110f17",
             "editorGroupHeader.tabsBackground": "#110f17",
             "tab.inactiveBackground": "#110f17"
+        },
+        "[codeSTACKr Theme]": {
+            "editor.background": "#09131b",
+            "terminal.background": "#09131b",
+            "activityBar.background": "#09131b",
+            "statusBar.background": "#09131b",
+            "editorGroupHeader.tabsBackground": "#09131b",
+            "tab.inactiveBackground": "#09131b"
         }
     },
 
@@ -183,6 +190,5 @@
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
 }
-
